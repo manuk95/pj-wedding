@@ -15,7 +15,7 @@
 :root {
   /* --titelfarbe: #FF847C;  */
   --titelfarbe: #75391e;  
-  --textfarbe1: orange;
+  --textfarbe1: #000000;
   --bgfarbe: #556b2f88;
 }
 
@@ -29,6 +29,9 @@ body {
   background: var(--bgfarbe);
   height: 100%;
   position: relative;
+}
+.textfarbe1 {
+  color: var(--textfarbe1);
 }
 
 a {
@@ -1171,7 +1174,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .groom-men h3 {
   font-family: "Clicker Script", cursive;
-  font-size: 28px;
+  font-size: 42px; /*28px;*/
+}
+
+.people-name-large {
+  font-size: 150%;
 }
 
 .wedding-events {
@@ -1210,6 +1217,9 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--titelfarbe);
   display: block;
   margin-bottom: 40px;
+}
+.wedding-events .desc h3.textfarbe1 {
+  color: var(--textfarbe1);
 }
 .wedding-events .desc .date {
   display: block;
