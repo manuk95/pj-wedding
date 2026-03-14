@@ -1371,6 +1371,14 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+@media screen and (max-width: $screen-xs) {
+	#qbootstrap-countdown,
+	#qbootstrap-testimonials,
+	#qbootstrap-started {
+		background-position: center center !important;
+	}
+}
+
 //Gallery
 .gallery{
 	margin-bottom: 30px;
